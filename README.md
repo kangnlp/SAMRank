@@ -19,6 +19,6 @@ Run 'stanford-corenlp-full-2018-02-27' on your computer's terminal using the fol
 
 ## Runing
 ```shell
-python samrank_eval.py --dataset [Inspec/SemEval2010/SemEval2017] --plm [BERT/GPT2]
+python samrank.py --dataset [Inspec/SemEval2010/SemEval2017] --plm [BERT/GPT2]
 ```
 The experiment results are saved as data frames (.csv) in the 'experiment_results' folder.
