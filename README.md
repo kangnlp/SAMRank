@@ -1,5 +1,5 @@
 # SAMRank
-This code is for EMNLP 2023 paper "SAMRank: Unsupervised Keyphrase Extraction using Self-Attention Map in BERT and GPT-2" 
+This code is for paper "[SAMRank: Unsupervised Keyphrase Extraction using Self-Attention Map in BERT and GPT-2](https://aclanthology.org/2023.emnlp-main.630)" 
 
 ## Requirements
 - [stanford-corenlp-full-2018-02-27](https://drive.google.com/file/d/1K4Ll54ypTf_tF83Mkkar2QKOcZ4Uskl5/view?usp=sharing)  (please download the .zip file and extract it)
