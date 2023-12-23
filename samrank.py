@@ -499,11 +499,11 @@ if __name__ == '__main__':
 
     dataset = read_jsonl(data_path)
 
-    if args.plm == 'BERT' or args.plm == 'bert' or args.plm == 'bert-base-uncased' :
+    if args.plm == 'BERT':
         tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
         model = BertModel.from_pretrained("bert-base-uncased", output_attentions=True, add_pooling_layer=False)
 
-    elif args.plm == 'GPT2' or args.plm == 'GPT-2' or args.plm == 'gpt2':
+    elif args.plm == 'GPT2':
         tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
         model = GPT2Model.from_pretrained('gpt2', output_hidden_states=True, output_attentions=True)
 
