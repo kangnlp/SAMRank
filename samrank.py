@@ -482,13 +482,13 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.dataset == 'Inspec' or args.dataset == 'inpsec':
-        data_path = 'data/Inspec.jsonl'
+        data_path = 'data/inspec.jsonl'
         doc_type = 'short'
     elif args.dataset == 'SemEval2010' or args.dataset == 'semeval2010':
-        data_path = 'data/SemEval2010.jsonl'
+        data_path = 'data/semeval2010.jsonl'
         doc_type = 'long'
     elif args.dataset == 'SemEval2017' or args.dataset == 'semeval2017':
-        data_path = 'data/SemEval2017.jsonl'
+        data_path = 'data/semeval2017.jsonl'
         doc_type = 'short'
     elif args.dataset == 'Krapivin' or args.dataset == 'krapivin':
         data_path = 'data/krapivin.jsonl'
